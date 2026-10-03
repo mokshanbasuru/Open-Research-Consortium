@@ -16,4 +16,4 @@ This file recognises contributors whose work has been substantial or whose role 
 
 ## Acknowledgements
 
-No further acknowledgements have been recorded yet.
+Acknowledgements will be added here as contributions are merged.
