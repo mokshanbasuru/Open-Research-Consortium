@@ -1,0 +1,82 @@
+name: Research Proposal
+description: Propose new research or a new research area for the Project
+title: "[Research]: "
+labels: ["research", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to propose research before drafting it. Early discussion helps ensure the work is in scope, is not duplicated, and can be reviewed effectively. Proposals are assessed against the editorial standards in the Charter (`docs/CHARTER.md`) and the research guidelines (`research/README.md`).
+
+  - type: input
+    id: domain
+    attributes:
+      label: Research domain
+      description: The primary field of study.
+      placeholder: "For example: distributed systems, macroeconomics, AI safety"
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Working title
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Research question and significance
+      description: State the question you intend to answer and why it matters.
+    validations:
+      required: true
+
+  - type: textarea
+    id: methodology
+    attributes:
+      label: Proposed methodology
+      description: Describe the approach, data sources, and tools. Explain how the work will be made reproducible.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sensitivity
+    attributes:
+      label: Sensitivity and dual-use considerations
+      description: See the dual-use provisions in the research guidelines.
+      options:
+        - No identified sensitivity
+        - Possible dual-use implications (described below)
+        - Involves vulnerability or security research (described below)
+        - Involves personal or restricted data (described below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: sensitivity_detail
+    attributes:
+      label: Sensitivity details
+      description: If you selected anything other than "No identified sensitivity", describe the considerations and proposed mitigations.
+
+  - type: textarea
+    id: interests
+    attributes:
+      label: Funding and competing interests
+      description: Disclose any funding, commissioning organisation, or competing interests. Enter "None" if there are none.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: attestation
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I have read the Contributing Guide and the Code of Conduct.
+          required: true
+        - label: I understand that accepted research is published under the Creative Commons Attribution 4.0 International license (CC-BY-4.0).
+          required: true
+        - label: I understand that every commit must be signed off under the Developer Certificate of Origin.
+          required: true
+        - label: I intend to follow the editorial standards in the Charter, including objectivity and neutrality.
+          required: true

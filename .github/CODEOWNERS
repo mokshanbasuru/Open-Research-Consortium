@@ -1,0 +1,34 @@
+# Open Research Consortium code owners.
+#
+# This file mirrors the areas listed in MAINTAINERS.md and is updated in the
+# same change. Ownership is currently held by the Founding Maintainer. When a
+# GitHub organization and maintainer teams exist, replace individual handles
+# with team handles (for example, @open-research-consortium/research).
+# The last matching pattern takes precedence.
+
+# Default owner
+*                         @mokshanbasuru
+
+# Governance and Charter
+/GOVERNANCE.md            @mokshanbasuru
+/MAINTAINERS.md           @mokshanbasuru
+/CODE_OF_CONDUCT.md       @mokshanbasuru
+/docs/                    @mokshanbasuru
+/proposals/               @mokshanbasuru
+
+# Licensing and trademarks
+/LICENSE                  @mokshanbasuru
+/LICENSES/                @mokshanbasuru
+/REUSE.toml               @mokshanbasuru
+/NOTICE                   @mokshanbasuru
+/TRADEMARKS.md            @mokshanbasuru
+
+# Research
+/research/                @mokshanbasuru
+
+# Tooling
+/tooling/                 @mokshanbasuru
+
+# Repository automation and security
+/.github/                 @mokshanbasuru
+/SECURITY.md              @mokshanbasuru

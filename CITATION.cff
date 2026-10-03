@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata in this file."
+title: "Open Research Consortium"
+abstract: "An open-source, community-governed project for independent and collaborative research."
+type: software
+authors:
+  - name: "The Open Research Consortium Authors"
+license: Apache-2.0
+keywords:
+  - open research
+  - open governance
+  - reproducible research

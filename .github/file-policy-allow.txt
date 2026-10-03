@@ -1,0 +1,3 @@
+# Paths exempt from the repository content policy (see CONTRIBUTING.md).
+# One exact repository-relative path per line. Adding an entry is a
+# Level 2 decision under GOVERNANCE.md and must be justified in the pull request.

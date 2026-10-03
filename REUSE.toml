@@ -1,0 +1,46 @@
+version = 1
+SPDX-PackageName = "Open Research Consortium"
+SPDX-PackageComment = "Licensing is declared per path. Documentation and research are licensed under CC-BY-4.0. Software, automation, and configuration are licensed under Apache-2.0."
+
+# Research, documentation, governance documents, and templates
+[[annotations]]
+path = [
+  "research/**",
+  "docs/**",
+  "proposals/**",
+  "README.md",
+  "GOVERNANCE.md",
+  "CONTRIBUTING.md",
+  "CONTRIBUTORS.md",
+  "MAINTAINERS.md",
+  "SECURITY.md",
+  "SUPPORT.md",
+  "TRADEMARKS.md",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 The Open Research Consortium Authors"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Third-party text: Contributor Covenant 2.1, adapted under CC-BY-4.0
+[[annotations]]
+path = "CODE_OF_CONDUCT.md"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "The Contributor Covenant authors (https://www.contributor-covenant.org)"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Software, automation, and configuration
+[[annotations]]
+path = [
+  "tooling/**",
+  ".github/**",
+  ".editorconfig",
+  ".gitattributes",
+  ".gitignore",
+  ".markdownlint-cli2.yaml",
+  "CITATION.cff",
+  "NOTICE",
+  "REUSE.toml",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 The Open Research Consortium Authors"
+SPDX-License-Identifier = "Apache-2.0"

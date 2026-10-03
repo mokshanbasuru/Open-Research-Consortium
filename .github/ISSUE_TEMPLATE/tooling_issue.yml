@@ -1,0 +1,48 @@
+name: Tooling Issue
+description: Report a defect or propose an enhancement or new tool
+title: "[Tooling]: "
+labels: ["tooling", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report security vulnerabilities here. Follow the private process in `SECURITY.md`.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - Defect
+        - Enhancement to an existing tool
+        - Proposal for a new tool
+    validations:
+      required: true
+
+  - type: input
+    id: component
+    attributes:
+      label: Affected tool or component
+      placeholder: "For example: tooling/markdown-converter, .github/workflows/lint.yml"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the problem or proposal and the motivation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: For defects, provide the minimal steps needed to reproduce the problem, the expected behaviour, and the actual behaviour.
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, tool version, and relevant dependency versions.

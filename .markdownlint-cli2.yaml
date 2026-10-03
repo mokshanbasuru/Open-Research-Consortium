@@ -1,0 +1,19 @@
+# Markdown lint configuration. Run locally with:
+#   npx markdownlint-cli2 "**/*.md"
+config:
+  default: true
+  # Prose is written one paragraph per line; wrapping is left to the reader.
+  MD013: false
+  # Documents with YAML front matter also begin with a level-one heading.
+  MD025:
+    front_matter_title: ""
+  # Permit a small set of inline HTML elements.
+  MD033:
+    allowed_elements: ["br", "details", "summary"]
+  # Repeated headings are acceptable when under different parents.
+  MD024:
+    siblings_only: true
+
+ignores:
+  - "node_modules/**"
+  - "LICENSES/**"
