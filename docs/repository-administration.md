@@ -30,7 +30,7 @@ GitHub does not permit an author to approve their own pull request, so the requi
 
 ## Merge Strategy
 
-Allow **rebase and merge** and **merge commit**. Disable **squash and merge**. Rebase merging preserves each commit and its `Signed-off-by` trailer on `main`, which keeps the Developer Certificate of Origin record intact, in line with the practice of the Linux kernel. Set the default to rebase and merge.
+Allow **rebase and merge** only. Disable **squash and merge** and **merge commits**, and enable **automatically delete head branches**. Rebase merging preserves each commit and its `Signed-off-by` trailer on `main`, which keeps the Developer Certificate of Origin record intact and keeps the history linear, in line with the practice of the Linux kernel. Squash merging discards individual sign-offs, and merge commits add commits that carry no sign-off.
 
 ## Security Features
 
