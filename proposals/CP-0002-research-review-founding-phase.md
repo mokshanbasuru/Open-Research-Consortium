@@ -60,7 +60,7 @@ Alternatives considered:
 ## Impact
 
 - **Contributors.** The requirements for research authored by others are unchanged. Contributors who wish to review the Maintainer's work are asked to do so, and their reviews are recorded in the front matter.
-- **Readers.** Documents that have not been independently reviewed are marked as such and cannot carry the `accepted` status. The statement in the repository README that the Project publishes peer-reviewed research continues to describe accepted documents.
+- **Readers.** Documents that have not been independently reviewed are marked as such and cannot carry the `accepted` status. The repository README describes the Project as designed to publish openly reviewed research, and this provision keeps that description accurate by distinguishing accepted documents from those still in review.
 - **Maintainers.** The Founding Maintainer judges whether reviews are substantive, in accordance with `GOVERNANCE.md`.
 - **Existing content and licensing.** Unchanged.
 - **Risks.** An unreviewed document may be mistaken for reviewed work. The mandatory label and the distinct status are intended to prevent this. The provision lapses when a second Maintainer is appointed.
