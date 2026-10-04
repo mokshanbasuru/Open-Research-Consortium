@@ -4,7 +4,22 @@
 [![Research and documentation: CC BY 4.0](https://img.shields.io/badge/research%20and%20docs-CC%20BY%204.0-blue.svg?style=flat-square)](LICENSES/CC-BY-4.0.txt)
 [![Contributions: DCO](https://img.shields.io/badge/contributions-DCO-blue.svg?style=flat-square)](CONTRIBUTING.md#developer-certificate-of-origin)
 
-Open Research Consortium is an open-source, community-governed project for independent and collaborative research. It publishes peer-reviewed research, maintains the tooling that supports it, and operates under a documented, merit-based governance model.
+Open Research Consortium is an open-source, community-governed project for independent and collaborative research. It is designed to publish openly reviewed research, maintain the tooling that supports it, and operate under a documented, merit-based governance model.
+
+## Status
+
+The Project is at an early stage. Its governance, licensing, and contribution process are in place and are documented below. No research or tooling has been published yet, and the Project is looking for its first outside contributors and reviewers.
+
+## How to Help
+
+You do not need to be an expert to help. The most useful contributions at this stage are:
+
+- **Pick a starter task.** Browse the issues labelled [`good first issue`](https://github.com/mokshanbasuru/Open-Research-Consortium/labels/good%20first%20issue).
+- **Review a proposal.** Governance proposals are kept in [`proposals/`](proposals/). Comments, questions, and objections are welcome in the issue tracker.
+- **Suggest research.** Use the [Research Proposal form](https://github.com/mokshanbasuru/Open-Research-Consortium/issues/new?template=research_proposal.yml) to propose a topic before writing it.
+- **Ask a question.** Use [Discussions](https://github.com/mokshanbasuru/Open-Research-Consortium/discussions).
+
+Before submitting a contribution, read the Contributing section below.
 
 ## Principles
 
