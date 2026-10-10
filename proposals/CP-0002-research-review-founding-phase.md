@@ -2,11 +2,11 @@
 cp: 0002
 title: Founding Phase Provision for Research Review
 type: Process
-status: Under Discussion
+status: Accepted
 author: Mokshan Basuru (@mokshanbasuru)
 created: 2026-10-03
-discussion:
-decided:
+discussion: https://github.com/mokshanbasuru/Open-Research-Consortium/pull/5
+decided: 2026-10-10
 supersedes:
 superseded-by:
 ---
@@ -79,4 +79,9 @@ None at the time of submission.
 
 ## Decision Record
 
-To be completed when the proposal is decided: the decision level and rule applied, the votes cast, and a summary of the principal objections and how they were addressed.
+- **Decision:** Accepted, on 10 October 2026.
+- **Level and rule:** Level 3, a revision of a cross-cutting policy. The comment period ran for seven days from the opening of the pull request on 3 October 2026, as required by [Section 4.1 of `GOVERNANCE.md`](../GOVERNANCE.md#4-decision-making). During the Founding Phase, while the Founding Maintainer is the only Maintainer, the Founding Maintainer decides after the comment period ([Section 6.1](../GOVERNANCE.md#61-founding-phase)).
+- **Votes:** The Founding Maintainer voted +1. No other binding votes exist.
+- **Comments and objections:** None were received during the comment period.
+- **Changes during the comment period:** On 4 October 2026 one sentence in the Impact section was updated to match a change to the repository README. The change was editorial and did not alter the substance of the proposal.
+- **Implementation:** The status table and the Founding Phase Provision were applied to `research/README.md` in the same pull request.

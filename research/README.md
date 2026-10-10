@@ -36,8 +36,8 @@ Every research document carries a `status` in its front matter.
 | Status | Meaning |
 | :--- | :--- |
 | `draft` | Being written. Not yet submitted for review. |
-| `in-review` | Submitted as a pull request and open for public review. |
-| `accepted` | Approved and merged. This is the published version. |
+| `in-review` | Open for public review, either as a pull request that has not been merged or, under the Founding Phase provision below, as a published document awaiting independent review. |
+| `accepted` | Approved after independent review and merged. This is the reviewed, published version. |
 | `superseded` | Replaced by a later document, which it references. |
 | `withdrawn` | Withdrawn by the author or the Maintainers, with reasons recorded. |
 
@@ -49,6 +49,17 @@ A document is accepted when:
 4. automated checks pass.
 
 Acceptance of research is a Level 2 decision. Accepted documents are versioned using the `version` field. Substantive corrections increment the version, and the change is described in the document's revision history. Accepted documents are not silently altered.
+
+### Founding Phase Provision
+
+While the Project has only one Maintainer, that Maintainer cannot satisfy the second acceptance criterion for a document they have authored, because no other Maintainer exists to review it. In that case the following applies instead.
+
+1. After the fourteen-day review period, the document may be merged with the status `in-review`. Directly beneath its title it carries the statement: "Status: in review. This document has not yet received independent review."
+2. The document remains `in-review` until it has received at least two substantive reviews from reviewers who are not among its authors. The reviewers are recorded in the front matter.
+3. A pull request then changes the status to `accepted` and removes the statement in item 1. Citations made before that point should identify the document as unreviewed.
+4. This provision applies only while the Project has one Maintainer. When a second Maintainer is appointed, the second acceptance criterion applies in full.
+
+The provision does not apply to research authored by anyone other than the sole Maintainer. For such research, the Maintainer serves as the Maintainer reviewer and the ordinary criteria apply.
 
 ## Sensitive and Dual-Use Research
 
