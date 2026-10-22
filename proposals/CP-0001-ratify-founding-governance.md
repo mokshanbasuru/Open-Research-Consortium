@@ -2,11 +2,11 @@
 cp: 0001
 title: Ratification of the Founding Governance Framework
 type: Governance
-status: Under Discussion
+status: Accepted
 author: Mokshan Basuru (@mokshanbasuru)
 created: 2026-10-03
-discussion:
-decided:
+discussion: https://github.com/mokshanbasuru/Open-Research-Consortium/issues/4
+decided: 2026-10-22
 supersedes:
 superseded-by:
 ---
@@ -76,4 +76,10 @@ None at the time of submission.
 
 ## Decision Record
 
-To be completed when the proposal is decided: the decision level and rule applied, the votes cast, and a summary of the principal objections and how they were addressed.
+- **Decision:** Accepted, on 22 October 2026.
+- **Level and rule:** Level 3, a decision concerning the Charter and licensing. The comment period ran for fourteen days, from 3 October to 17 October 2026, as required by [Section 7 of the Charter](../docs/CHARTER.md#7-amendment) and [Section 4.1 of `GOVERNANCE.md`](../GOVERNANCE.md#4-decision-making). While the Founding Maintainer is the only Maintainer, the Founding Maintainer decides after the comment period ([Section 6.1](../GOVERNANCE.md#61-founding-phase)).
+- **Votes:** The Founding Maintainer voted +1. No other binding votes exist.
+- **Comments and objections:** None were received during the comment period, which was held in issue #4.
+- **Process note:** The pull request that added this proposal was merged on 3 October 2026, shortly after it was opened and before the comment period, by mistake. The status remained Under Discussion, and no decision was recorded. The comment period was moved to issue #4, as described in that issue. The decision above was recorded after the comment period ended on 17 October 2026.
+- **Baseline:** The documents listed in the Proposal section were unchanged between commit `e52b841` and the date of this decision.
+- **Effect:** The documents listed above are ratified as the Project's governing framework at that baseline. Later changes are amendments under `GOVERNANCE.md`.
